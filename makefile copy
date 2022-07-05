@@ -1,0 +1,23 @@
+.PNONY=clean all
+COMMON=1
+all:make_common make_ring make_test test
+
+make_common:
+	$(MAKE) -C ./common
+make_ring:
+	$(MAKE) -C ./ring
+
+make_test:
+RING=$(wildcard ./ring/*.o)
+COMMON=$(wildcard ./common/*.o)
+
+test:test.o $(COMMON) $(RING)
+		g++ -g -Wall $^ -o $@
+
+test.o:main.c
+		g++ -g -Wall -c main.c -o test.o -I ./include
+
+clean:
+	$(MAKE) -C ./common clean
+	$(MAKE) -C ./ring clean
+	rm *.o test

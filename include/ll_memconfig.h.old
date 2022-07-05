@@ -1,0 +1,10 @@
+#ifndef _LL_MEMCONFIG_H_
+#define _LL_MEMCONFIG_H_
+
+void
+ll_mcfg_mem_write_lock(void);
+
+void
+ll_mcfg_mem_write_unlock(void);
+
+#endif

@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "stdbool.h": "c",
+        "perf.h": "c",
+        "ll_file.h": "c",
+        "perf_event.h": "c",
+        "errno.h": "c",
+        "types.h": "c",
+        "ll_atomic.h": "c",
+        "ll_common.h": "c",
+        "intel_pt_pkt_decoder.h": "c",
+        "intel_pt_decoder.h": "c",
+        "ll_pmem.h": "c",
+        "xed-interface.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "syscall.h": "c",
+        "ptrace.h": "c",
+        "intel_pt_insn_decoder.h": "c",
+        "intel_pt_log.h": "c",
+        "inttypes.h": "c",
+        "ll_config.h": "c",
+        "ll_mem_config.h": "c",
+        "ll_memory.h": "c",
+        "limits.h": "c",
+        "ll_thread_lcore.h": "c",
+        "eal_memory.h": "c"
+    }
+}

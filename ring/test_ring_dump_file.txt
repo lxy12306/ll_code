@@ -1,0 +1,20 @@
+ring <my_ring>@0x8032480
+ flags=1c
+ size= 128
+ capacity= 64
+ ct= 0
+ ch= 0
+ pt= 0
+ ph= 0
+ used= 0
+ size= 64
+ring <my_ring>@0x8032480
+ flags=1c
+ size= 128
+ capacity= 64
+ ct= 64
+ ch= 40
+ pt= 64
+ ph= 60
+ used= 0
+ size= 64

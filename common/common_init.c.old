@@ -1,0 +1,3 @@
+#include <ll_errno.h>
+
+LL_DEFINE_PER_THREAD(int, _ll_errno);
